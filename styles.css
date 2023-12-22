@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #191847;
+    font-weight: 500;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(180deg, #DEE2E9 0%, #DEE2E9 77.6%, rgba(222, 226, 233, 0.00) 100%);
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 56px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-color > div > svg {
+    color: #fff;
+}
+
+.header-left {
+
+}
+
+.header-logo {
+
+}
+
+.header-logo > img {
+    width: 67px;
+}
+
+.header-right {
+
+}
+
+.container {
+    padding: 0 15px;
+    padding-top: 56px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.verify-tag-success {
+    padding: 30px 24px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    background: #F3FFF9;
+    max-width: 700px;
+}
+
+.success-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-image > img {
+    width: 279px;
+}
+
+.success-title {
+    color: rgba(0, 155, 72, 1);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.22px;
+}
+
+.success-description {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.154px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.products > .eduhome {
+    width: 66px;
+    height: 38px;
+}
+
+.products > .edufun {
+    width: 60px;
+    height: 60px;
+}
+
+.products > .i-test {
+    width: 73px;
+    height: 20px;
+}
+
+.success-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-button > button  {
+    border-radius: 8px;
+    background: #009B48;
+    border: none;
+    padding: 10px 24px;
+    color: #fff;
+    cursor: pointer;
+    min-width: min(300px, 100%);
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+.success-button-description {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.132px;
+    text-align: center;
+}
+
+.success-button-description > span {
+    font-weight: bold;
+}
+
+.serial-qr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.serial-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.serial-code {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 11px;
+    border-radius: 8px;
+    border: 1px solid rgba(25, 24, 71, 0.10);
+    background: #FFF;
+    padding: 8px 50px;
+}
+
+.serial-count {
+    display: flex;
+    gap: 20px;
+}
+
+.serial-count > div > span {
+    font-weight: bold;
+}
+
+.serial-time {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.verify-tag-error {
+    max-width: 700px;
+    padding: 30px 24px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    background: #FFF2F2;
+}
+
+.error-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-image > img {
+    width: 279px;
+}
+
+.error-title {
+    color: #F00;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.22px;
+}
+
+.error-description {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.154px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.products > .eduhome {
+    width: 66px;
+    height: 38px;
+}
+
+.products > .edufun {
+    width: 60px;
+    height: 60px;
+}
+
+.products > .i-test {
+    width: 73px;
+    height: 20px;
+}
+
+.error-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-button > button  {
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 10px 24px;
+    color: #fff;
+    cursor: pointer;
+    min-width: min(300px, 100%);
+}
+
+.error-button-description {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.132px;
+    text-align: center;
+}
+
+.error-button-description > span {
+    font-weight: bold;
+}
